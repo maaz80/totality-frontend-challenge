@@ -41,65 +41,73 @@ app-cart-page.jsx
 |-- global.css # Custom styles
 |-- layout.js
 |-- page.js
+```
+# Tech Stack
+- **Frontend**: HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js
+- **Backend**: Data stored using ChatGPT-generated database (stored locally in data.js file).
+- **State Management**: React Context API for managing cart and favorite properties.
+- **UI/Styling:** Tailwind CSS for styling components and layouts.
 
-Tech Stack
-Frontend: HTML, CSS, Tailwind CSS, JavaScript, React.js, Next.js
-Backend: Data stored using ChatGPT-generated database (stored locally in data.js file).
-State Management: React Context API for managing cart and favorite properties.
-UI/Styling: Tailwind CSS for styling components and layouts.
-Getting Started
+# Getting Started
 To run the project locally, follow these steps:
 
-1. Clone the Repository
-bash
-Copy code
-git clone <your-repo-link>
-2. Install Dependencies
-bash
-Copy code
-npm install
-# or
-yarn install
-# or
-pnpm install
-3. Run the Development Server
-bash
-Copy code
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-Open http://localhost:3000 with your browser to see the application.
+# 1. Clone the Repository
 
-4. Environment Setup
-If you have any environment variables (e.g., for payment gateways), configure them in a .env.local file.
+- git clone <totality-frontend-challenge>
 
-Usage
-Home Page: Browse and filter properties by clicking on the Filter Bar.
-Favorite: Add a property to your favorites by clicking the "Add to Favorite" button on any property card.
-Property Details: Click on a property to view its detailed page.
-Booking Process:
-Click "Book Now" on the property details page.
-Fill in booking dates, guests, and personal information.
-Select payment method and proceed to book the property.
-Cart: After booking, view your booked property in the cart and edit any details if necessary.
-Authentication: Create an account on the signup page, and log in to access your personalized experience (such as viewing your name on the top bar).
-Learn More
-To learn more about Next.js, check out the following resources:
+# 2. Install Dependencies
 
-Next.js Documentation - learn about Next.js features and API.
-Learn Next.js - interactive Next.js tutorial.
-You can also check out the Next.js GitHub repository to contribute or find out more.
+- npm install
+# or
+- yarn install
+# or
+- pnpm install
 
-Deployment
-The easiest way to deploy your Next.js app is using Vercel, which provides seamless integration with the Next.js framework.
+# 3. Run the Development Server
+
+- npm run dev
+# or
+- yarn dev
+# or
+- pnpm dev
+# or
+- bun dev
+
+*Open http://localhost:3000 with your browser to see the application.*
+
+# 4. Environment Setup
+
+- If you have any environment variables (e.g., for payment gateways), configure them in a .env.local file.
+
+# Usage
+
+- **Home Page:** Browse and filter properties by clicking on the Filter Bar.
+- **Favorite:** Add a property to your favorites by clicking the "Add to Favorite" button on any property card.
+- **Property Details:** Click on a property to view its detailed page.
+
+# Booking Process:
+
+- Click "Book Now" on the property details page.
+- Fill in booking dates, guests, and personal information.
+- Select payment method and proceed to book the property.
+- Cart: After booking, view your booked property in the cart and edit any details if necessary.
+- Authentication: Create an account on the signup page, and log in to access your personalized experience (such as viewing your name on the top bar).
+
+# Learn More
+
+- To learn more about Next.js, check out the following resources:
+
+- Next.js Documentation - learn about Next.js features and API.
+- Learn Next.js - interactive Next.js tutorial.
+- You can also check out the Next.js GitHub repository to contribute or find out more.
+
+# Deployment
+
+- The easiest way to deploy your Next.js app is using Vercel, which provides seamless integration with the Next.js framework.
 
 For more details, check out the Next.js deployment documentation.
 
-Additional Notes
-Cart Management: Cart context is used to manage items and booking details across different pages.
+# Additional Notes
+- **Cart Management:** Cart context is used to manage items and booking details across different pages.
 Popup Booking Form: The booking process utilizes popups for a step-by-step flow, ensuring a seamless user experience.
 Responsive Design: The application is built to be fully responsive, ensuring optimal usability across devices.
