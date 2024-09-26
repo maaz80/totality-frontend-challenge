@@ -18,7 +18,7 @@ const Navbar = () => {
   }, [totalCount]); 
 
   // Checking Logged In or Not 
-  useEffect(() => {
+  setInterval(() => {
     const storedUsername = localStorage.getItem('username');
     const isLoggedIn = localStorage.getItem('LoggedIn') === 'true';
     if (isLoggedIn && storedUsername) {
@@ -26,7 +26,7 @@ const Navbar = () => {
     } else {
       setUsername('');
     }
-  },[username]);
+  },500);
 
   // Toggle function for the hamburger menu
   const toggleMobileMenu = () => {

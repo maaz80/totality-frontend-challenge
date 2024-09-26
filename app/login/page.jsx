@@ -38,7 +38,7 @@ const page = () => {
         if (password) {
             const formData = { username, email, number };
             localStorage.setItem(password, JSON.stringify(formData));
-            alert("Data saved successfully!");
+            alert("SignUp successfull!");
             setEmail('')
             setIspassword('')
             setNumber('')
