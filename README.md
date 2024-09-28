@@ -48,33 +48,6 @@ app-cart-page.jsx
 - **State Management**: React Context API for managing cart and favorite properties.
 - **UI/Styling:** Tailwind CSS for styling components and layouts.
 
-# Getting Started
-To run the project locally, follow these steps:
-
-# 1. Clone the Repository
-
-- git clone <totality-frontend-challenge>
-
-# 2. Install Dependencies
-
-- npm install
-# or
-- yarn install
-# or
-- pnpm install
-
-# 3. Run the Development Server
-
-- npm run dev
-# or
-- yarn dev
-# or
-- pnpm dev
-# or
-- bun dev
-
-*Open http://localhost:3000 with your browser to see the application.*
-
 # 4. Environment Setup
 
 - If you have any environment variables (e.g., for payment gateways), configure them in a .env.local file.
@@ -111,3 +84,31 @@ For more details, check out the Next.js deployment documentation.
 - **Cart Management:** Cart context is used to manage items and booking details across different pages.
 Popup Booking Form: The booking process utilizes popups for a step-by-step flow, ensuring a seamless user experience.
 Responsive Design: The application is built to be fully responsive, ensuring optimal usability across devices.
+
+
+# Getting Started
+To run the project locally, follow these steps:
+
+# 1. Clone the Repository
+
+- git clone <totality-frontend-challenge>
+
+# 2. Install Dependencies
+
+- npm install
+**or**
+- yarn install
+**or**
+- pnpm install
+
+# 3. Run the Development Server
+
+- npm run dev
+**or**
+- yarn dev
+**or**
+- pnpm dev
+**or**
+- bun dev
+
+*Open http://localhost:3000 with your browser to see the application.*
